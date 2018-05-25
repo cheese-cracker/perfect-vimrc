@@ -20,8 +20,8 @@ Plug 'garbas/vim-snipmate'
 Plug 'ervandew/supertab'
 call plug#end()
 
-"ADD Fuzzy Finder"
-set rtp+=~/.fzf
+"ADD Fuzzy Finder for below command"
+"set rtp+=~/.fzf
 
 "----------Basic configs----------"
 retab
