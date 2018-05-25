@@ -6,7 +6,7 @@ This .vimrc file has been made with help from-
  - Various other youtube tutorials
  - the makers of the plugins and color schemes(rupza,tatami)
 #### Installation
- - Install vim if you haven't!
+ - Install vim 7.4+(earlier may/may not work) if you haven't!
  - Clone this repository to your home directory
  - Open vim and run :PlugInstall
  - Wait for it to get installed and your good to go!.
