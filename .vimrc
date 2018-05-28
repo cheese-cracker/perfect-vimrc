@@ -45,10 +45,8 @@ set backspace=indent,eol,start
 set complete=.,w,b,u
 set hlsearch
 set incsearch
-set backupdir = ~/.vim/tmp
-"Quote the above line and unquote the two lines below for No Backups!
-"set nobackup
-"set nowritebackup
+set nobackup
+set nowritebackup
 
 "-- LEADER is here --""
 let mapleader = ','
@@ -102,7 +100,7 @@ let g:NERDTreeHijackNetrw = 0
 " Pymode configs
 let g:pymode_python = 'python3'
 
-" Jedi configs --None necessary
+" Jedi configs (Unquote next line for disabling the popup)
 "let g:jedi#popup_on_dot = 0
 "autocmd FileType python setlocal completeopt-=preview
 
