@@ -13,7 +13,7 @@ This .vimrc file has been made with help from-
  - Open vim and run :PlugInstall
  - Wait for the installation and your done!
 #### Usage-
-By default, backups are made to ~/.vim/tmp. To change this, please unquote the nobackup and nowrite backup lines!
+By default, backups are disabled!
 Apart from the standard keys some useful keys include-
  - Leader Key = ,
  - gg (changed), ff for switching between tabs
