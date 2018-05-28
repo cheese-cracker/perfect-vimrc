@@ -45,9 +45,10 @@ set backspace=indent,eol,start
 set complete=.,w,b,u
 set hlsearch
 set incsearch
-"set backupdir = ~/.vim/tmp
-set nobackup
-set nowritebackup
+set backupdir = ~/.vim/tmp
+"Quote the above line and unquote the two lines below for No Backups!
+"set nobackup
+"set nowritebackup
 
 "-- LEADER is here --""
 let mapleader = ','
