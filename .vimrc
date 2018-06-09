@@ -45,8 +45,11 @@ set backspace=indent,eol,start
 set complete=.,w,b,u
 set hlsearch
 set incsearch
+"set backupdir = ~/.vim/tmp
 set nobackup
 set nowritebackup
+set scrolloff=10
+"set clipboard=unnamed
 
 "-- LEADER is here --""
 let mapleader = ','
@@ -95,13 +98,15 @@ set background=dark
 colorscheme rupza
 set number
 set laststatus=2
-let g:NERDTreeHijackNetrw = 0
+let g:NERDTreeHijackNetrw=0
 
 " Pymode configs
-let g:pymode_python = 'python3'
+let g:pymode_python='python3'
+let g:pymode_syntax_all=1
+let g:pymode_syntax=1
 
 " Jedi configs (Unquote next line for disabling the popup)
-"let g:jedi#popup_on_dot = 0
+"let g:jedi#popup_on_dot=0
 "autocmd FileType python setlocal completeopt-=preview
 
 "-------------Split Management---------------"
@@ -133,8 +138,8 @@ nmap <Leader>/ :nohlsearch<cr>
 nmap <Leader>e :NERDTreeToggle<cr>
 
 "Git-Gutter-Shortcut"
-:command GGT GitGutterToggle
-:command GGH GitGutterLineHighlightsToggle
+cmap GGT GitGutterToggle
+cmap GGH GitGutterLineHighlightsToggle
 
 "shortcuts for Up/Down"
 nnoremap Dw gg<cr>
